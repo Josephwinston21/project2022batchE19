@@ -77,92 +77,33 @@ WEBSITE
 
 ###For Bonafide and LOR Request Website,
 
-#### Admin
-  - Login
-  - Accept/Decline the account registration made by the student
-  - View the list of students and staffs registered in the portal
+######Users of the system:
+In this online internet banking system, the users are
+• Administrators
+• Customers
+####Administrator:
+He is the super user responsible for managing system users,taking system backup, generating reports, maintaining organization details,Starting Sessions and ending Sessions and also manages various requests from different Types of users.
+• Providing Username, Password and other information required for the users to start an account.
+• Starting Sessions: The Administrator creates the system users and will beassigned with the different roles. He is also responsible to start the session when
+a particular user wants to use the system every time (It is automatically managed setup).
+• Managing Data Backup: The Administrator is responsible for managing entire details by taking the backup periodically. He also takes the Backup of the
+database in order to prevent loss of data on system crashes or in order to prevent malfunctioning. He can take a backup ofentire database or a particular section.
+• Crash Recovery: The Administrator manages the crash recovery at the time of system crash or failure occurs.
+• Ending session: The administrator is responsible for ending the sessionwhen the particular user logged out of the system (It is automatically managed setup).
 
-#### HOD
-  - Login
-  - Accept/Decline the request for Bonafide raised by the student
-  - Edit the body contents of the LOR and send it to student
-  - View the list of students and staffs registered in the portal
-
-#### Staff
-  - Register/ Login
-  - Accept/Decline the request for LOR Raised by the student
-  - Edit the body contents of the LOR and send it to student
-
-#### Student
-  - Register/ Login
-  - View the list of staffs registered in the portal
-  - Request for Bonafide/LOR
-  - Download the Bonafide/LOR obtained from the faculty
+####Customer (Normal/others):
+Ordinary customers have a user name & password with which they can login into their account. They can perform all the transactions such as funds transfer, balance enquiry etc by sitting at their home on internet.
+• Login: User can login to the system by providing appropriate username and passwordprovided by the administrator.
+• Selecting the Account: After logging in the user is provided with a screen showingthe details of accounts and he selects one of the accounts in order to perform the transaction.
+• Balance Enquiry: He can view the balance left in his account, if once he has enteredinto his account.
+• Funds Transfer: Upon the request the user can transfer funds from his account toother accounts.
+• Mini statements: He also can take a mini statement print out upon his requirement.
 
  
 
-## End to end tests breakdown
-
-Student/Staff Registration
-
-```
-Click on Register in Homepage
-Choose if you want to login as a Student/Staff
-Fill in the required details
-Click on Register button
-
-Note: Login can be done ony after admin's approval.
-```
-Registration Authentication
-
-```
-Login as Admin by filling in the credetials
-To authenticate staff login, Click on ''View Staff'' and click Accept/Decline
-To authenticate student login, Click on ''View Student'' and click Accept/Decline
-```
-
-To request for Bonafide
-
-```
-Login into the portal by giving the credentials
-click on the button named Bonafide Certificate
-Select the reason for applying for bonafide
-Click on Submit
-```
-To request for LOR
-
-```
-Login into the portal by giving the credentials
-click on the button named LOR Certificate
-Fill in the body of the letter
-Append your signature in Digital format
-Click on Submit
-```
-Accept/Decline Bonafide Request
-
-```
-Login as HOD by giving the credentials
-Click on "Inbox"
-Click Accept/Decline to Approve/Decline the request for Bonafide
-Append the Date of issuing the Bonafide and Digital Signature
-Click "Save"
-```
-Accept/Decline LOR Request
-
-```
-Login as a Staff by giving the credentials
-Click on "Inbox"
-Click Accept/Decline to Approve/Decline the request for LOR
-Append the Body Content if any changes are supposed to be made and attach the Digital Signature
-Click "Save"
-```
-
-
 ## Built With
 
-* [Java]<https://docs.oracle.com/en/java/> - Programming Language
-* [Collections]<https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html> - The core framework used
-* [JSP, Servlet]<https://docs.oracle.com/javaee/6/tutorial/doc/bnafd.html> - J2EE
+* <https://www.djangoproject.com/> - core
 * [HTML 5, CSS 3]<https://developer.mozilla.org/en-US/docs/Web/HTML> <https://developer.mozilla.org/en-US/docs/Web/CSS> - For Web Designing
 * [JQuery]<https://api.jquery.com/>) - Used to generate Animation Effect
 * [JavaScript]<https://developer.mozilla.org/en-US/docs/Web/JavaScript> - For Scripting
@@ -171,7 +112,6 @@ Click "Save"
 
 
 ## References
-
 <https://ieeexplore.ieee.org/document/573971>
 <https://ieeexplore.ieee.org/document/5616659>
 <https://docs.oracle.com/javaee/7/api/javax/mail/package-summary.html>

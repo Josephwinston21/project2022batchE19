@@ -45,32 +45,32 @@ Client and Browser
 ### Installation
 
 WEBSITE
-1. Extract all the files from the folder.
-2. To install the latest version of jdk, run jdk 8 from the extracted folder ***java 8 jdk***
-3. Goto MySQL, open the text file and download the contents from Google drive. Then, Goto **MySql 5 --> mysql-5.0.24a-win32** and run ***Setup***
-4. To install MySql Front, Goto **MySql 5 --> MySQL-Front_Setup5.1.FREEWARE** and run ***MySQL-Front_Setup5.1.FREEWARE***
-5. Goto *Tomcat 7.0* and run the file ***apache-tomcat-7.0.11*** (make sure to mark all the checkboxes during installation)
-6. Set path and environment vaiable for the jdk installed. 
-7. Extractopy ***D*** folder and paste it in **C:\Apache\Tomcat7.0\webapps**
-8. Extract and copy **BG*** folder and paste it in **C:\Apache\Tomcat7.0\webapps**
-9. Open **MySQL Front** and login.
-10. Next, right click on *localhost -> Import -> SQL File* and Import from ***resources\autosystemfinal***
-11. Click ***Refresh*** to view the imported data.
-12. To create a new Database, first copy the text file contents from **resources\auto**
-13. Goto MySQL Front, right click on ***localhost -> New -> Database*** and click on ***SQL Editor,*** paste the contents and run it.
-
-BACKGROUND VERIFICATION SOFTWARE
-1. Install Netbeans and run it.
-2. Extract the code and load it into the netbeans software.
-3. Run it to view the result.
-
+•	In this project we are going to create a secure virtual bank using django.
+• Install Python 3.7 Or Higher
+• Install Django version 2.2.0
+• Open the project directory 
+• Install all dependencies cmd using -python -m pip install –-user -r requirements.txt
+• Finally run cmd - python manage.py runserver
+• Execute the project by running Xampp to connect our webpage to sql database
+•	Open the web page obtained by executing our project
+•	Then the register user page would open to register as a new user if you are an existing user we can use login function.
+•	After login we can deposit and withdraw with the terms and conditions.
+•	To Use the project in a admin view we need to add "/admin" at the end of the url.
+•	The admins login id is :admin@admin.com and the password is :admin123
+•	The Admin after login can control and modify all and various aspects of the bank
+•	Only certain files are supported like (jpeg, jpg, pdf, txt, gif).
+•	Hence the Project is executed successfully.
+• We can now disconnect from xampp.
+•	We can stop the website from running by terminating CMD after the completion of the process.
+• Any changes in the project will be recorded in cmd window
 
 ## Deployment
 
-1. Navigate to ***Apache/Tomcat7.0/bin*** and run **tomcat7** by clicking on it.
-2. Navigate to <http://localhost:8888/> in *Chrome* to run the program.
-3. Login by clicking ***Manager App*** button and open */BG* for running Background verification Software
-4. For the ***Web Application for Bonafide and LOR***, open */D*
+•	Download XAMPP , APACHE TOMCAT .
+•	Download and Install DJANGO and celery usig pip in CMD
+•	Install all dependencies cmd using -python -m pip install –-user -r requirements.txt
+• Finally run cmd and execute the program using - python manage.py runserver
+•	The web portal address (http://127.0.0.1:8000/) will be displayed in cmd.
 
 
 ## Functionality of Modules 

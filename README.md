@@ -2,7 +2,7 @@
 
 # Project Title
 
-VIRTUAL NETBANKING SYSTEM USING ADMINISTRATIVE MODULE
+Virtual NetBanking System Using Administrative Module
 
 
 # About the Project
@@ -120,11 +120,8 @@ Ordinary customers have a user name & password with which they can login into th
 
 ## Contact
 
-* H. Pooja 
-  - Register Number: 211417104184
+*B.Joseph Winston
+         - Register Number: 211418104104
 
-* Priyadarshini Venkatesan 
-  - Register Number: 211417104201
-
-* S.Sherline Calista 
-  - Register Number: 211417104256
+* Venkata Sai Guthala 
+  - Register Number: 211417104073

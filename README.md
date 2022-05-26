@@ -67,9 +67,13 @@ WEBSITE
 ## Deployment
 
 •	Download XAMPP , APACHE TOMCAT .
+
 •	Download and Install DJANGO and celery usig pip in CMD
+
 •	Install all dependencies cmd using -python -m pip install –-user -r requirements.txt
+
 • Finally run cmd and execute the program using - python manage.py runserver
+
 •	The web portal address (http://127.0.0.1:8000/) will be displayed in cmd.
 
 

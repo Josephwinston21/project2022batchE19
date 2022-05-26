@@ -79,7 +79,7 @@ WEBSITE
 
 ## Functionality of Modules 
 
-###For Bonafide and LOR Request Website,
+###For Transactional Report and Account Type Changes,
 
 ######Users of the system:
 In this online internet banking system, the users are

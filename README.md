@@ -1,4 +1,4 @@
-# Batch--8-Automation--of--Student--Education--Verification-and---Services
+# Batch--19-VIRTUAL--NETBANKING--SYSTEM--USING--ADMINISTRATIVE--MODULE
 
 # Project Title
 
@@ -30,13 +30,15 @@ Processor: P IV and above
 ```
 Software Requirements
 
-```
-Windows 7 and above(64 bit)
-JDK 1.8
-Tomcat 8.5
-MySQL 5.0
-NetBeans
-```
+Application Requirements
+• Microsoft Windows 2000
+• PHP (Apache Tomcat 5.5)
+Database Server
+• My SQL 5.0.
+
+Client and Browser 
+• Microsoft Internet Explorer (6+).
+• Mozilla Firefox.
 
 
 ### Installation

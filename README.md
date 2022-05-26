@@ -23,9 +23,10 @@ These instructions will get you a copy of the project up and running on your loc
 Hardware Requirements
 
 ```
-Hard Disk: 80 GB and above
-RAM:4GB and above
-Processor: P IV and above
+Hardware Requirements (Minimum)
+• Pentium IV 233MHz.
+• 128 MB RAM.
+• 250 MB free hard disk space.
 
 ```
 Software Requirements
